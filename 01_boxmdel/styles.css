@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+.one {
+  background-color: aqua;
+  outline: 3px solid palevioletred;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  border: 20px solid teal;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: 20px;
+}
+.two {
+  background-color: navajowhite;
+  padding: 25px;
+  outline: 50px solid pink;
+  width: 400px;
+  border: 50px solid yellowgreen;
+  box-sizing: border-box;
+  /* margin: 20px; */
+}
