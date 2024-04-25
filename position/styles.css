@@ -1,0 +1,33 @@
+.div1 {
+  position: relative;
+  background-color: aqua;
+}
+div {
+  background-color: antiquewhite;
+}
+ul {
+  left: 2px;
+  z-index: -1;
+  right: 2px;
+  height: 200px;
+  background-color: brown;
+}
+.csselm {
+  position: absolute;
+  background-color: rgb(218, 18, 18);
+  top: 100px;
+}
+.js {
+  background-color: aquamarine;
+}
+.html {
+  position: sticky;
+  background-color: cadetblue;
+  top: 200px;
+}
+header {
+  position: sticky;
+  top: 10px;
+
+  background-color: chartreuse;
+}
