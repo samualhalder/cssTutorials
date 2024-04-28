@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 150px;
+  background-color: #0660d4;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.title {
+  color: white;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub {
+  color: white;
+  margin-left: 20px;
+}
+.img-cont {
+  display: inline;
+  position: relative;
+  top: 7px;
+  left: 9px;
+  padding: 0;
+}
+img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.two {
+  margin-left: -15px;
+}
