@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.parent {
+  border: 3px solid greenyellow;
+  padding: 5px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent span {
+  border: 3px solid yellowgreen;
+  flex-shrink: 0;
+}
+.parent p {
+  border: 3px solid blueviolet;
+
+  margin: 0;
+}
+.parent a {
+  border: 3px solid violet;
+}
