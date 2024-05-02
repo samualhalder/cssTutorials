@@ -3,21 +3,31 @@ body {
 }
 .parent {
   border: 3px solid greenyellow;
-  padding: 5px;
   height: 50vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 .parent span {
+  /* flex-grow: 1; */
   border: 3px solid yellowgreen;
-  flex-shrink: 0;
+  width: 200px;
+  background-color: aquamarine;
 }
 .parent p {
-  border: 3px solid blueviolet;
+  width: 200px;
 
-  margin: 0;
+  border: 3px solid blueviolet;
+  background-color: blueviolet;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .parent a {
+  width: 200px;
+
   border: 3px solid violet;
+  background-color: violet;
 }
